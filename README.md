@@ -3,19 +3,19 @@ This repository contains code for calculating residue-level sequence scores usin
 
 ## Requirements
 Python:
-argparse 
-math 
-pandas 
-Biopython 
-re 
+- argparse 
+- math 
+- pandas 
+- Biopython 
+- re 
 
 R:
-ape
-seqinr
-Biostrings
-phytools
-phangorn
-nlme
+- ape
+- seqinr
+- Biostrings
+- phytools
+- phangorn
+- nlme
 
 ## Functionality
 1. res.py module
@@ -50,6 +50,6 @@ PGLS Analysis in R:
 
 The order_final_data can then be subsetted to find significantly correlated residues. 
 
-Acknowledgments
+## Acknowledgments
 - Biopython
 - R packages
